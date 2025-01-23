@@ -17,7 +17,7 @@ Arquitectura
 
 Nuestra aplicación frontend está construida utilizando un enfoque de componentes basado en React.js. Cada sección de la página (header, hero, features, footer) es un componente independiente, lo que facilita la gestión y el mantenimiento del código. Utilizamos [Tu tecnología de estilos elegida] para aplicar estilos de manera eficiente y mantener una apariencia consistente en toda la aplicación.
 
-##  Roadmap
+ Roadmap
 
 Fase 1: Lanzamiento inicial:
 Implementar funcionalidades de búsqueda y reproducción de música.
@@ -45,19 +45,19 @@ Equipo
 - Carol Mas
 - Maria
 
-## 📓 Competencias técnicas
+ 📓 Competencias técnicas
 
 - Maquetar una aplicación - Nivel 3: Crear
 - Crear una interfaz de usuario web dinámica y adaptable - Nivel 2: Adaptar
 
-## 💻 Tecnologías
+ 💻 Tecnologías
 
 - HTML
 - CSS
 - Javascript
 - React.js
 
-## 🛠Herramientas
+ 🛠Herramientas
 
 - Visual Studio Code
 - Trello - Jira
