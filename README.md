@@ -34,7 +34,7 @@ Seguridad en los inputs: Identificación y documentación de los campos de entra
 
 💻 Tecnologías Utilizadas
 Front-end: HTML, CSS, JavaScript, React.js
-Diseño y Maquetación: CSS Modules, Styled Components, Bootstrap, Tailwind, MUI
+Diseño y Maquetación: CSS Modules, Styled Components, Bootstrap, Tailwind o MUI
 Herramientas de Desarrollo:
 Visual Studio Code
 Trello / Jira
