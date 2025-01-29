@@ -9,7 +9,7 @@ function Router() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<App/>}/>
-                <Route path="/src/pages/Discover.jsx" element={<Discover/>}/>
+                <Route path="/Discover" element={<Discover/>}/>
                 <Route path="/Join" element={<Join/>}/>
             </Routes>
 

@@ -1,5 +1,5 @@
 footer {
-    background-color: green;
+    background-color: #202027;
     height: 5vh;
     width: 100%;
     display: flex;
@@ -9,48 +9,70 @@ footer {
     padding: 2rem 2rem;
     position: fixed;
     bottom: 0;
-    padding-left: 150px;
-    padding-right: 150px;
 }
 
-@media screen and (max-width:700px){
-    footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 2rem; 
-}
-}
 
 .divPagesFooter {
+    width: 50vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     gap: 2rem;
+    
 
 }
 
 .divSocialMedia{
+  
+    width: 50vw;
+    height: 3.125rem;
     display: flex;
-    flex-direction: row; 
-    justify-content: space-evenly;
-    gap: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 
 }
 
-.divTwitter .divFacebook{
+.divTwitter {
+   
     display: flex;
     flex-direction: row; 
     align-items: center;
     gap: 0.5rem;   
+   
+  
 }
-@media screen and (max-width:700px){
-    .divTwitter .divFacebook {
-    flex-direction: column;
+.divFacebook {
+   
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 0.5rem;   
+    
+  
 }
-}
+
 
 
 .SocialMediaLogos{
     height: 15px;  
+}
+
+@media screen and (max-width:700px){
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 2rem; 
+    }
+
+    .divTwitter {
+    flex-direction: column;
+}
+
+.divFacebook {
+    flex-direction: column;
+}
 }

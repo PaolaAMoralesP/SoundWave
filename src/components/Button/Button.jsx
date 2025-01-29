@@ -1,16 +1,17 @@
-import React from "react"
-import "./button.css"
+import React from "react";
+import { useNavigate } from "react-router"; 
+import "./button.css";
 
-function Button (){
-
-    return (
-        
-      
-    // <button>Join Now</button>
-    <button type="button">Join Now</button>
-
-        
-    )
+function Button() {
     
-    }
-    export default Button 
+  const buttonJoin = useNavigate(); 
+
+  const click = () => { buttonJoin("/Join"); 
+  };
+
+  return (
+    <button type="button" onClick={click}>Join Now</button> 
+  );
+}
+
+export default Button;

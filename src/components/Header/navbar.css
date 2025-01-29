@@ -1,12 +1,7 @@
-header {
-    background-color: blue;
-}
-
-
 
 .logoSoundwave {
     height: 60px;
-    background-color: yellow;
+    
 }
 
 .navbar-container {
@@ -16,52 +11,58 @@ header {
     display: flex;
     align-content: center;
     align-items: center;
+    /* background-color: #202027; */
 
 }
 
 .divLogo {
     width: 50vw;
-    height: 50px;
+    height: 3.1rem;
     display: flex;
-    gap: 10px;
+    gap: 1rem;
     justify-content: center;
     align-items: center;
 
 }
 
 .divLogo p {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 
 .divPages {
 
     width: 50vw;
-    height: 50px;
+    height: 3.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 14px;
+    gap: 1rem;
 }
+
 
 @media screen and (max-width:700px) {
 
     .logoSoundwave {
-        height: 50px
+        height: 3.1rem
     }
 
     .navbar-container {
-        height: 50px
+        height: 3.1rem
     }
 
     .divPages {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+       
     }
 
     .divLogo {
         display: flex;
-        justify-content: space-around;
         margin-left: 2rem;
+    }
+
+    .divLogo p {
+        font-size: 1.2rem;
     }
 }
