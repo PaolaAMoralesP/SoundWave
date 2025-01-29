@@ -6,9 +6,10 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 2rem;
+    padding: 1rem 1rem;
     position: fixed;
     bottom: 0;
+    z-index: 4;
 }
 
 
@@ -18,8 +19,6 @@ footer {
     flex-direction: row;
     justify-content: center;
     gap: 2rem;
-    
-
 }
 
 .divSocialMedia{

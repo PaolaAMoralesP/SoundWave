@@ -1,16 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 main {
-    /* width: 80vw; */
     width: 100%;
-    /* height: 50rem; */
     min-height: 800px;
     display: flex;
     justify-content: space-evenly;
-    /* margin-left: 100px; */
+    
 }
  
 .divGirl {
     display: flex;
     align-items: end; 
+    z-index: 2;
 }
 
 .girlImage {
@@ -20,19 +24,29 @@ main {
 .divText {
     display: flex;
     flex-direction: column;
-    justify-content: center;  
+    justify-content: center; 
     
+ 
 }
 
 h1{
-    font-size: 45px;  
+    font-size: 45px; 
+    font-weight: 300;
+ 
 }
-h2{
+h6{
     font-size: 15px;  
+    font-weight: 300;
+    margin-top: 1rem;
+     
 }
 
 @media screen and (max-width:700px){
     .girlImage {
          display: none;
+    }
+
+    .divText {
+        padding: 15%;
     }
 }
