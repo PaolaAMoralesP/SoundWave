@@ -3,7 +3,7 @@ import './circles.css'
 function Circle1 () {
 
 return (
-<div className="divCircle1"></div>
+<div className="divCircle" id="idCircle1"></div>
 )
 
 
