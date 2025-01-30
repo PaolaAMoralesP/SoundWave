@@ -1,6 +1,38 @@
+
+
+.formComponent {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+   
+
+}
+
 h3 {
     font-size: 45px;
     font-weight: 700;
-    color: red;
+    margin-bottom: 20px;
 
+}
+
+span {
+    color: #BD3A81;
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+@media screen and (max-width:700px) {
+    .formComponent {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    gap: 0;
+    }
+
+  
+    
 }

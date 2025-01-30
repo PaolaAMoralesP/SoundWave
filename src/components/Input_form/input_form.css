@@ -1,0 +1,39 @@
+form {
+    background-color: #202027;
+    min-width: 31rem;
+    display: flex;
+    flex-direction: column;
+    height: fit-content; 
+    padding: 3rem; 
+    border-radius: 15px;
+    z-index: 4;
+   
+}
+
+label {
+    padding: 0.3rem;
+}
+
+input {
+    background-color: #202027;
+    border-color: #2E3852;
+    border-style: solid; 
+    border-width: 1px; 
+    padding: 5px; 
+
+    &:focus {
+        background-color: #596da0;
+    }
+}
+
+@media screen and (max-width:700px) {
+form {
+    min-width: 20rem;
+    width: 8rem;
+    
+   
+    
+      
+}
+
+}
