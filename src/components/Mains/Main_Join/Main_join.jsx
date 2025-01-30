@@ -1,31 +1,30 @@
+
+import Circle1 from "../../Circles/Circle1";
+import Circle2 from "../../Circles/Circle2";
+import Input_form from "../../Input_form/Input_form";
 import "./main_join.css"
 
-import Circle1 from "../../Circles/Circle1"
-import Circle2 from "../../Circles/Circle2"
-import Button from "../../Button/Button"
+
 
 function Main_Join() {
-
-    return (
-        <main>
-            <h3>Join the fun.</h3>
-            <Circle1 />
-            <Circle2 />
-            <form>
-                {/* <label htmlFor="name">Name:</label>
-                <input type="text" id="name" name="name"></input>
-                <label htmlFor="email">Email:</label>
-                <input type="text" id="email" name="email"></input>
-                <label htmlFor="password">Password:</label>
-                <input type="text" id="password" name="password"></input>
-                <br></br> */}
-                <Button />
-
-            </form>
-
-        </main>
-    )
-
+  return (
+    <main>
+      <Circle1 />
+      <Circle2 />
+      <div className="content-main">
+        <div className="content-text">
+          <h3>
+            Join the <span className="highlight">fun.</span>
+          </h3>
+        </div>
+        <div className="form-section">
+          <Input_form />
+        </div>
+      </div>
+    </main>
+  );
 }
-export default Main_Join
+
+export default Main_Join;
+
 
