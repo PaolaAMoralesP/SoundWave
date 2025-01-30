@@ -1,0 +1,33 @@
+.icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon_button {
+    width:9vh;
+    height:9vh;
+    background: #272720;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.1rem;
+    padding: 0.625rem;
+
+}
+
+
+ .icon_button img {
+    width:5vh;
+    height:5vh;
+    object-fit: contain;
+  }
+
+
+.icon_label {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    text-align: center;
+  }
+
+

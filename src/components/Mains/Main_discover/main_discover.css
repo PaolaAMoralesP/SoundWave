@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    padding: 20px; 
+    margin-top: 150px;
+    margin-left: 350px;
+}
+
+.contentLeft {
+    flex-direction: column;
+}
+
+.albumsPicture {
+    width: 40vh;
+}
+
+.contentRight{
+align-items: end;
+
+    
+}
+
+
+/*main flex 
+justify content espace evenly
+
+
+
+ 
+    
+    
