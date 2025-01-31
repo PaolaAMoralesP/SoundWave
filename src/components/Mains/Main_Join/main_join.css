@@ -10,21 +10,22 @@
   .content-text {
     width: 50%;
     max-width: 600px;
-    font-size: 50px;
+    margin: 0;
     font-weight: 800;
     padding: 20px;
     display: flex;
-    flex-direction: column; 
     align-items: center;
     justify-content: center;
   }
   
-  .content-text h3 {
+   h3 {
+    font-size: 2.5rem;
     margin: 0;
   }
   
   .highlight {
     color: #ff00ff;
+    font-size: 2.5rem;
   } 
   
 
