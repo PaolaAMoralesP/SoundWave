@@ -18,7 +18,7 @@ function Main() {
             <div className="divText">
                 <h1>Feel The Music</h1>
                 <h6>Stream over 20 thousand songs with one click</h6>
-               <Button/>
+                <Button type="button"/>
             </div>
         </main>
     )

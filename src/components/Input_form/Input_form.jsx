@@ -1,3 +1,4 @@
+import Button from "../Button/Button";
 import "./input_form.css";
 import { useState } from "react";
 
@@ -93,9 +94,7 @@ function Input_form() {
         onChange={handleChange}
         error={errors.Password}
       />
-      <button type="submit" className="submit-button">
-        Join Now
-      </button>
+      <Button type="submit"/>
     </form>
   );
 }

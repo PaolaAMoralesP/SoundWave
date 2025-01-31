@@ -2,15 +2,15 @@ import React from "react";
 import { useNavigate } from "react-router"; 
 import "./button.css";
 
-function Button() {
-    
+function Button({type}) {
+  
   const buttonJoin = useNavigate(); 
 
   const click = () => { buttonJoin("/Join"); 
   };
 
   return (
-    <button type="button" onClick={click}>Join Now</button> 
+    <button type={type} onClick={click}>Join Now</button> 
   );
 }
 
