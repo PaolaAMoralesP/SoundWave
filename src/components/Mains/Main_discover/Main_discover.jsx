@@ -17,7 +17,7 @@ function Main_discover () {
                         <Icon_button className="albums" icon={iconAlbums} label="Albums" />
                         <Icon_button className="more" icon={iconMore} label="More" />
                         </div>
-                    <p>By joining you can benefit by listening to the latest albums released</p>
+                    <p>By joining you can benefit by listening to the latest albums released.</p>
                 </div>
                 <div className="contentRight">
                     <img className="albumsPicture" src={albumsPicture} alt="Image of famous albums"/>                        
