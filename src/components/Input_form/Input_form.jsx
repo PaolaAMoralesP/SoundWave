@@ -36,17 +36,17 @@ function Input_form() {
     let newErrors = { Name: "", Email: "", Password: "" };
 
     if (formData.Name.trim().length < 3) {
-      newErrors.Name = "El nombre debe tener al menos 3 caracteres.";
+      newErrors.Name = " 💩 Must be 3 characters or more";
       valid = false;
     }
 
     if (!/^\S+@\S+\.\S+$/.test(formData.Email)) {
-      newErrors.Email = "Correo electrónico no válido.";
+      newErrors.Email = "💩 Invalid email.";
       valid = false;
     }
 
     if (formData.Password.length < 6) {
-      newErrors.Password = "La contraseña debe tener al menos 6 caracteres.";
+      newErrors.Password = "💩 Password must be at least 6 characters long.";
       valid = false;
     }
 
@@ -56,15 +56,14 @@ function Input_form() {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
-    setErrors({ ...errors, [e.target.id]: "" }); // Limpiar error al escribir
+    setErrors({ ...errors, [e.target.id]: "" }); 
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      alert("Formulario enviado correctamente");
-      console.log("Datos:", formData);
-      // Aquí puedes manejar el envío a una API
+      alert("💜 Form sent successfully");
+      // console.log("Datos:", formData);
     }
   };
 
