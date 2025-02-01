@@ -11,9 +11,9 @@ function Navbar() {
                 <p>Soundwave</p>
             </div>
             <div className="divPages">
-            <Link to={"/Discover"}style={{ textDecoration: 'none'}}>Discover</Link>
-            <Link to={"/Join"} style={{ textDecoration: 'none'}}>Join</Link>   
-            
+            <Link to={"/Discover"}className="divLink">Discover</Link>
+            <Link to={"/Join"} className="divLink">Join</Link>   
+
             </div>
         </nav>
     )
