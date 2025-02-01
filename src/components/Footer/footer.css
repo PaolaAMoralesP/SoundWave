@@ -1,5 +1,5 @@
 footer {
-    background-color: #202027;
+    background-color: var(--midnight-black);
     height: 5vh;
     width: 100%;
     display: flex;

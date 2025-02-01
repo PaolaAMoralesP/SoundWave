@@ -13,7 +13,7 @@ function Navbar() {
             <div className="divPages">
             <Link to={"/Discover"}style={{ textDecoration: 'none'}}>Discover</Link>
             <Link to={"/Join"} style={{ textDecoration: 'none'}}>Join</Link>   
-                
+            
             </div>
         </nav>
     )

@@ -5,10 +5,16 @@
   font-family: Poppins,Arial, Helvetica, sans-serif;
  
 }
+/* Colores con el nombre "oficial", buscados en internet */
 :root {
-  background-color: #2F303A;
-  --accent-color: #BD3A81;
-
+--charcoal-gray: #2F303A;
+--midnight-black: #202027;
+--slate-gray: #2E3852;
+--steel-blue: #596DA0;
+--royal-blue: #1762A7;
+--azure-blue: #2180D8;
+--electric-blue: #2796FF;
+--dark-pink: #BD3A81;
 }
 
 @media screen and (max-width:700px){

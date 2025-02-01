@@ -2,5 +2,5 @@
 
 #root {
 
-  background-color: #2F303A;
+  background-color: var(--charcoal-gray); /*Cambiado el color con el nombre variable*/
 }

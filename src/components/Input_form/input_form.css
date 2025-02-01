@@ -1,59 +1,59 @@
- /* Formulario */
-  .form-section {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .form-container {
-    background-color: #202027;
-    padding: 30px;
-    border-radius: 10px;
-    width: 350px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .input-container {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-  }
-  
-  .input-container label {
-    margin-bottom: 5px;
-    font-size: 14px;
-  }
-  
-  .input-container input {
-    padding: 10px;
-    border: 1px solid #2e3852;
-    border-radius: 5px;
-    background-color: #202027;
-    color: white;
-    &:focus{
-        background-color: #596da0;
-    }
-  }
-  
-  .submit-button {
-    width: 100%;
-    background-color: #007bff;
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background 0.3s ease;
-  }
-  
-  .submit-button:hover {
-    background-color: #2180d8;
-  } 
+/* Formulario */
+.form-section {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .error-text {
-    color: #BD3A81;
-    font-size: 0.9rem;
-  }
+.form-container {
+  background-color: var(--midnight-black);
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-container label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.input-container input {
+  padding: 10px;
+  border: 1px solid var(--slate-gray);
+  border-radius: 5px;
+  background-color: var(--midnight-black);
+  color: white;
+}
+.input-container input:focus {
+  background-color: var(--steel-blue); /*Cambiado el color con el nombre variable*/
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: var(--azure-blue); /*Cambiado el color con el nombre variable*/
+}
+
+.error-text {
+  color: var(--dark-pink); /*Cambiado el color con el nombre variable*/
+  font-size: 0.9rem;
+}
