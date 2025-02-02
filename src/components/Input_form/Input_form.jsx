@@ -49,6 +49,9 @@ function Input_form() {
     if (formData.Password.length < 6) {
       newErrors.Password = "💩 Password must be at least 6 characters long.";
       valid = false;
+    } else if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{6,}$/.test(formData.Password)) {
+      newErrors.Password = "💩 Password must include an uppercase letter, a lowercase letter, a number, and a special character.";
+      valid = false;
     }
 
     setErrors(newErrors);
