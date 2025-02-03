@@ -9,16 +9,17 @@ function Main() {
 
     return (
         <main>
-            <Circle1/>
-            <Circle2/>
-            <Circle3/>
+            <Circle1 />
+            <Circle2 />
+            <Circle3 />
             <div className="divGirl">
                 <img className="girlImage" src={girlImage} alt="Image of a afro-american girl" />
             </div>
             <div className="divText">
                 <h1>Feel The Music</h1>
                 <h6>Stream over 20 thousand songs with one click</h6>
-                <Button type="button"/>
+
+                <Button type="button" navigateTo="/Join" />
             </div>
         </main>
     )

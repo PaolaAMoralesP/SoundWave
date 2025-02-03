@@ -2,13 +2,13 @@
 import Navbar from "./Navbar"
 import "./navbar.css"
 
- function Header (){
+function Header() {
 
-    return (
-    <header className="">
-    <Navbar/>
-    </header>
-    )
-    
-    }
-    export default Header
+   return (
+      <header className="">
+         <Navbar />
+      </header>
+   )
+
+}
+export default Header

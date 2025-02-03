@@ -4,15 +4,15 @@ import Main_Join from "../components/Mains/Main_Join/Main_join"
 
 
 
-function Join () {
+function Join() {
 
-return (
-<>
-<Header/>
-<Main_Join/>
-<Footer/>
-</>
-)
+    return (
+        <>
+            <Header />
+            <Main_Join />
+            <Footer />
+        </>
+    )
 
 
 }
