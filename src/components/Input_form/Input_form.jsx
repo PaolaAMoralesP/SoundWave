@@ -60,14 +60,14 @@ function Input_form() {
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
-    setErrors({ ...errors, [e.target.id]: "" }); 
+    setErrors({ ...errors, [e.target.id]: "" });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
       alert("💜 Form sent successfully");
-      // console.log("Datos:", formData);
+
     }
   };
 
@@ -97,7 +97,8 @@ function Input_form() {
         onChange={handleChange}
         error={errors.Password}
       />
-      <Button type="submit"/>
+
+      <Button type="submit" className="form-button" />
     </form>
   );
 }

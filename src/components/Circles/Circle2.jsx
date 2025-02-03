@@ -1,10 +1,10 @@
 import './circles.css'
 
-function Circle2 () {
+function Circle2() {
 
-return (
-<div className="divCircle" id="idCircle2"></div>
-)
+    return (
+        <div className="divCircle" id="idCircle2"></div>
+    )
 
 
 }

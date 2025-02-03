@@ -1,26 +1,24 @@
-
 * {
   color: white;
   font-size: 1.2rem;
-  font-family: Poppins,Arial, Helvetica, sans-serif;
- 
+  font-family: Poppins, Arial, Helvetica, sans-serif;
 }
-/* Colores con el nombre oficial, buscados en internet */
+
 :root {
---charcoal-gray: #2F303A;
---midnight-black: #202027;
---slate-gray: #2E3852;
---steel-blue: #596DA0;
---royal-blue: #1762A7;
---azure-blue: #2180D8;
---electric-blue: #2796FF;
---dark-pink: #BD3A81;
+  --charcoal-gray: #2f303a;
+  --midnight-black: #202027;
+  --slate-gray: #2e3852;
+  --steel-blue: #596da0;
+  --royal-blue: #1762a7;
+  --azure-blue: #2180d8;
+  --electric-blue: #2796ff;
+  --dark-pink: #ff00ff;
+  --ligth-pink: #bc3a801a;
+  --ligth-blue: #3457b21a;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width: 700px) {
   :root {
-   font-size: 0.8rem;
-  
+    font-size: 0.8rem;
   }
-
 }
