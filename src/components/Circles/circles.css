@@ -1,0 +1,43 @@
+.divCircle {
+  border-radius: 50%;
+  position: fixed;
+  z-index: 1;
+}
+
+#idCircle1 {
+  background-color: var(--ligth-pink);
+  width: 20rem;
+  height: 20rem;
+  bottom: 10%;
+  left: 1%;
+}
+
+#idCircle2 {
+  background-color: var(--ligth-blue);
+  width: 20rem;
+  height: 20rem;
+  top: 15%;
+  left: 27%;
+}
+
+#idCircle3 {
+  background-color: var(--ligth-blue);
+  width: 35rem;
+  height: 35rem;
+  bottom: -60%;
+  right: -20%;
+}
+
+@media screen and (max-width: 700px) {
+  #idCircle1,
+  #idCircle2 {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  #idCircle3 {
+    width: 15rem;
+    height: 15rem;
+    bottom: -20%;
+  }
+}

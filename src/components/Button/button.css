@@ -1,0 +1,21 @@
+button {
+  background-color: var(--royal-blue);
+  border-color: var(--royal-blue);
+  font-size: medium;
+  font-weight: 200;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  display: flex;
+  inline-size: fit-content;
+  margin-left: 0;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+&:focus {
+  background-color: var(--electric-blue);
+}
+
+&:hover {
+  border-color: var(--azure-blue);
+}
