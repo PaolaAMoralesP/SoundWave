@@ -12,11 +12,11 @@ function Footer() {
       <div className="divSocialMedia">
         <div className="divTwitter">
           <img className="SocialMediaLogos" src={twitter} alt="Twitter logo" />
-          <p>Twitter</p>
+          <p className="textSocialMedia" >Twitter</p>
         </div>
         <div className="divFacebook">
           <img className="SocialMediaLogos" src={facebook} alt="Facebook logo" />
-          <p>Facebook</p>
+          <p className="textSocialMedia">Facebook</p>
         </div>
       </div>
     </footer>

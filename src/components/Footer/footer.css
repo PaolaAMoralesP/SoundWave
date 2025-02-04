@@ -43,6 +43,12 @@ footer {
   gap: 0.5rem;
 }
 
+.textSocialMedia {
+  display: flex;
+  align-items: center; 
+  margin-bottom: 1rem;
+}
+
 .SocialMediaLogos {
   height: 15px;
 }
