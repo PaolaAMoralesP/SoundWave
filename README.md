@@ -107,6 +107,6 @@ Implementación opcional de tests unitarios
 Mariuxi Olaya
 Paola Morales
 Carol Mas
-Maria Sogoll
-
+Maria Bongoll
+Milena Ocoro
 📌 Gracias por visitar nuestro repositorio. 🚀
